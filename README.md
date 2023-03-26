@@ -13,11 +13,27 @@ Naive Random Oversampling had a balanced accuracy score of 0.66. See imbalanced 
 
 ![Image](Challenge/Naive_Random_Oversampling.png)
 
+SMOTE oversampling had a balanced accuracy score of 0.63. See imbalanced classification report below: 
+
 ![Image](Challenge/SMOTE_Oversampling.png)
 
+Undersampling with ClusterCentroids had a balanced accuracy score of 0.51. See imbalanced classification report below: 
+
+![Image](Challenge/ClusterCentroids.png)
+
+SMOTEENN combination over/undersampling had a balanced accuracy score of 0.68. See imbalanced classification report below: 
+
+![Image](Challenge/SMOTEENN.png)
+
+The ensemble learner BalancedRandomForestClassifier had a balanced accuracy score of 0.78. See imbalanced classification report below: 
+
+![Image](Challenge/BalancedForest.png)
+
+The Easy Ensemble AdaBoost Classifier had a balanced accuracy score of 0.93. See imbalanced classification report below: 
+
+![Image](Challenge/AdaBoost.png)
 
 
-SMOTE had a balanced accuracy score of 0.63. 
 
 
 
